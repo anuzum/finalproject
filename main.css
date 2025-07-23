@@ -3997,13 +3997,3 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-
-/* Image Responsiveness */
-.responsive-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 3px;
-  max-width: 600px; 
-}
