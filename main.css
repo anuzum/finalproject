@@ -4009,6 +4009,6 @@ input, select, textarea {
 /* Cap image width on larger screens */
 @media screen and (min-width: 768px) {
   .image img {
-    max-width: 600px;
+    max-width: 500px;
   }
 }
