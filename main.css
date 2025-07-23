@@ -3998,22 +3998,24 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
-/* Mobile View Fix */
+/* Make image containers responsive and centered */
+.image {
+  display: block !important;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Make images responsive inside the container */
 .image img {
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
-  .image img {
-    max-width: 500px;
+/* On small screens, let container go full width */
+@media screen and (max-width: 767px) {
+  .image {
+    max-width: 100%;
   }
-}
-/* Desktop & Container Fix */
-.image {
-  display: block !important;
-  max-width: 100%;
-  text-align: center;
 }
