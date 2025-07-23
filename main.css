@@ -4008,7 +4008,7 @@ input, select, textarea {
 
 @media screen and (min-width: 768px) {
   .image img {
-    max-width: 500px;
+    max-width: 300px;
   }
 }
 
