@@ -3998,17 +3998,17 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
-/* Make .image class responsive and capped on larger screens */
+/* Mobile View Fix */
 .image img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-/* Cap image width on larger screens */
 @media screen and (min-width: 768px) {
   .image img {
     max-width: 500px;
   }
 }
+
