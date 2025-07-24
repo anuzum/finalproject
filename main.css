@@ -4019,3 +4019,8 @@ input, select, textarea {
     max-width: 100%;
   }
 }
+
+/* Keep all .spotlight images left-aligned on appetizers page */
+.appetizers-page .spotlight:nth-child(2n) {
+  flex-direction: row !important;
+}
