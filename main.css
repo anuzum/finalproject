@@ -4019,3 +4019,24 @@ input, select, textarea {
     max-width: 100%;
   }
 }
+
+.wrapper.style5, 
+.wrapper.style5 .inner {
+  max-width: 100% !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .image img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
