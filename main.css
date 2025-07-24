@@ -4024,3 +4024,7 @@ input, select, textarea {
 .appetizers-page .spotlight:nth-child(2n) {
   flex-direction: row !important;
 }
+
+body.appetizers-page .spotlight:nth-child(2n) {
+  flex-direction: row !important;
+}
